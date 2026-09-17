@@ -1,0 +1,18 @@
+{
+  "name": "dsh-read",
+  "version": "0.1.0",
+  "description": "Read-only access to local DSH session lists and session content through a remote MCP server.",
+  "author": {
+    "name": "Local developer"
+  },
+  "interface": {
+    "displayName": "DSH-Read",
+    "shortDescription": "Read DSH session lists and session content.",
+    "longDescription": "Connects to the DSH-Read remote MCP server. The server exposes read-only DSH session and knowledge retrieval tools; no write tools are configured.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": ["read-only DSH session retrieval"],
+    "defaultPrompt": "Use DSH-Read to find or read a DSH session."
+  },
+  "mcpServers": "./.mcp.json"
+}
