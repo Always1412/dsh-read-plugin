@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "dsh-read": {
+      "type": "http",
+      "url": "https://healthy-deeper-quick-avenue.trycloudflare.com/mcp"
+    }
+  }
+}
